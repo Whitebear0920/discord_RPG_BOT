@@ -1,0 +1,10 @@
+[
+    {
+        "name": "ping",
+        "description": "reply pong"
+    },
+    {
+        "name": "hi",
+        "description": "hello"
+    }
+]
