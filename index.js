@@ -13,4 +13,11 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
+client.on('messageCreate', (msg) => {
+    console.log(msg);
+    if (msg.content === 'p') {
+        msg.reply('pp');
+    }
+})
+
 client.login(token);
