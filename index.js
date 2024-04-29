@@ -1,4 +1,5 @@
 const { Client, Intents, IntentsBitField } = require('discord.js');
+const { token } = require('token.json')
 const client = new Client({
     intents: [
         IntentsBitField.Flags.Guilds,
